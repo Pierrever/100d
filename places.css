@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(30deg, turquoise, rgb(58, 58, 58));
+}
+
+main li img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+main ul {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  position: static;
+}
+
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.item-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.actions {
+  justify-self: end;
+}
+
+.actions a {
+  color: violet;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  background-color: rgb(200, 192, 200);
+  border-radius: 20px;
+}
